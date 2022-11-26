@@ -18,6 +18,7 @@ computational task. In this work, we revisit deep learning models used for *clas
 *representations extracted from their final layers*. We show that **simple convolutional networks trained on localization classification can learn protein representations that encapsulate diverse functional information**, and significantly outperform currently used autoencoder-based models. 
 
 ## Methods & Results
+[Methods](methods_comparison.png)
 
 ## How to run
 
