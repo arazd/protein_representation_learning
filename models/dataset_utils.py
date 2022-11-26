@@ -1,5 +1,5 @@
 import numpy as np
-import tensorflow as tf # This code has been tested with TensorFlow 1.6
+import tensorflow as tf # This code has been tested with TensorFlow 2.0
 import os, random
 from PIL import Image
 import matplotlib.pyplot as plt
