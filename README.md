@@ -24,8 +24,6 @@ We compare three methods for molecular representation learning:
 * **Paired Cell Inpainting** - autoencoder-based method for protein representation learning;
 * **CellProfiler** - a classic feature extractor for cellular data;
 
-<img align="right" src="https://github.com/arazd/protein_representation_learning/blob/main/methods_comparison.png" alt="drawing" width="250"/>
-
 We train Deep Loc and Paired Cell Inpainting models on single-cell yeast microscopy data, containing ~4K fluorescently-labeled proteins. Data is available here: 
 
 We use 4 standards for comparison:
@@ -33,6 +31,9 @@ We use 4 standards for comparison:
 * GO Biological Process (GO BP)
 * KEGG Pathways
 * EMBL Protein Complexes
+
+<img src="https://github.com/arazd/protein_representation_learning/blob/main/methods_comparison.png" alt="drawing" width="250"/>
+
 
 ## How to run
 
