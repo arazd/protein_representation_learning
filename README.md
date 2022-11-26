@@ -18,11 +18,13 @@ computational task. In this work, we revisit deep learning models used for *clas
 *representations extracted from their final layers*. We show that **simple convolutional networks trained on localization classification can learn protein representations that encapsulate diverse functional information**, and significantly outperform currently used autoencoder-based models. 
 
 ## Methods & Results
-<img align="right" src="https://github.com/arazd/protein_representation_learning/blob/main/methods_comparison.png" alt="drawing" width="250"/>
 We compare three methods for molecular representation learning:
+
 * **Deep Loc** - a supervised convolutional network trained to classify subcellular localizations from images;
 * **Paired Cell Inpainting** - autoencoder-based method for protein representation learning;
 * **CellProfiler** - a classic feature extractor for cellular data;
+
+<img align="right" src="https://github.com/arazd/protein_representation_learning/blob/main/methods_comparison.png" alt="drawing" width="250"/>
 
 We train Deep Loc and Paired Cell Inpainting models on single-cell yeast microscopy data, containing ~4K fluorescently-labeled proteins. Data is available here: 
 
