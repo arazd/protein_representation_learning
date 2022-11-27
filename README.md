@@ -7,7 +7,7 @@
 
 In this work, we explored different methods for protein representation learning from microscopy data. We evaluated the extracted representations on four biological benchmarks - subcellular compartments, biological processes, pathways and protein complexes.
 
-**Check out our [paper (ICLR 2022, MLDD workshop)](https://arxiv.org/abs/2205.11676)** and our [poster](https://github.com/arazd/protein_representation_learning/poster.jpeg)!
+**Check out our [paper (ICLR 2022, MLDD workshop)](https://arxiv.org/abs/2205.11676)** and our [poster](https://github.com/arazd/protein_representation_learning/blob/main/poster.jpeg)!
 
 ## About
 Despite major developments in molecular representation learning, **extracting functional information from biological images** remains a non-trivial
