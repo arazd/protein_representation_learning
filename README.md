@@ -25,8 +25,8 @@ We compare three methods for molecular representation learning:
 We train Deep Loc and Paired Cell Inpainting models on single-cell yeast microscopy data, containing ~4K fluorescently-labeled proteins. Data is available here: 
 
 We use 4 standards for comparison:
-* GO Cellular Component (GO CC)
-* GO Biological Process (GO BP)
+* [http://geneontology.org/](GO Cellular Component) (GO CC)
+* [http://geneontology.org/](GO Biological Process) (GO BP)
 * KEGG Pathways
 * EMBL Protein Complexes
 
