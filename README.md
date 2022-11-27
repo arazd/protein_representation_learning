@@ -7,8 +7,7 @@
 
 In this work, we explored different methods for protein representation learning from microscopy data. We evaluated the extracted representations on four biological benchmarks - subcellular compartments, biological processes, pathways and protein complexes.
 
-**Check out our [paper (ICLR 2022, MLDD workshop)](https://arxiv.org/abs/2205.11676)!**
-
+**Check out our [paper (ICLR 2022, MLDD workshop)](https://arxiv.org/abs/2205.11676)** and our [poster](https://github.com/arazd/protein_representation_learning/poster.jpeg)!
 
 ## About
 Despite major developments in molecular representation learning, **extracting functional information from biological images** remains a non-trivial
@@ -34,9 +33,9 @@ We use 4 standards for comparison:
 
 
 ## Codebase
-Code for DeepLoc and Paired Cell Inpainting models is available under ``` models/keras_models.py ```
+Code for DeepLoc and Paired Cell Inpainting models is available under ``` models/keras_models.py ```. CellProfiler features were obtained by running the [CellProfiler pipeline](https://cellprofiler.org/).
 
-CellProfiler features were obtained by running the [CellProfiler pipeline](https://cellprofiler.org/).
+Dataloader class is available under ``` models/dataset_utils.py ```, and contains reading / preprocessing / converting to tensorflow Dataset single-cell images in .tiff format (see server with data above).
 
 ## References 
 
