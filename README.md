@@ -5,7 +5,7 @@
 ![Top language](https://img.shields.io/github/languages/top/bowang-lab/BIONIC)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6762584.svg)](https://doi.org/10.5281/zenodo.6762584)
 -->
-![Build status](https://img.shields.io/github/workflow/status/arazd/protein_representation_learning/Python%20package)
+![Build status](https://img.shields.io/github/workflow/status/arazd/protein_representation_learning/models)
 ![Top language](https://img.shields.io/github/languages/top/arazd/protein_representation_learning)
 ![License](https://img.shields.io/github/license/arazd/protein_representation_learning)
 
