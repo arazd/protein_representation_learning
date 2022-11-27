@@ -21,7 +21,7 @@ We compare three methods for molecular representation learning:
 * **Paired Cell Inpainting** - autoencoder-based method for protein representation learning;
 * **CellProfiler** - a classic feature extractor for cellular data;
 
-We train Deep Loc and Paired Cell Inpainting models on single-cell yeast microscopy data, containing ~4K fluorescently-labeled proteins. Image data can be downloaded as zip files from this webserver: [http://hershey.csb.utoronto.ca/image_screens/WT2/](http://hershey.csb.utoronto.ca/image_screens/WT2/)
+We train Deep Loc and Paired Cell Inpainting models on single-cell yeast microscopy data, containing ~4K fluorescently-labeled proteins. Image data can be downloaded as zip files from this <span id="server">webserver</span>: [http://hershey.csb.utoronto.ca/image_screens/WT2/](http://hershey.csb.utoronto.ca/image_screens/WT2/)
 
 We use 4 standards for comparison:
 * [GO Cellular Component](http://geneontology.org/) (GO CC)
@@ -52,7 +52,7 @@ Check other ```train.py``` arguments for different training options.
 
 CellProfiler features were obtained by running the [CellProfiler pipeline](https://cellprofiler.org/). 
 
-Dataloader class is available under ```models/dataset_utils.py```, and contains reading / preprocessing / converting to tensorflow Dataset single-cell images in .tiff format (see server with data above).
+Dataloader class is available under ```models/dataset_utils.py```, and contains reading / preprocessing / converting to tensorflow Dataset single-cell images in .tiff format. Link to server with cell image data is [above](#server).
 
 
 ## References 
