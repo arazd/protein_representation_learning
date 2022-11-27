@@ -35,13 +35,20 @@ We use 4 standards for comparison:
 ## Codebase
 Configure environment:
 ```bash
-conda install tensorflow-gpu
+pip install tensorflow-gpu=2.2.0
+
+conda install cudatoolkit==10.1.243
+conda install cudnn==7.6.5
+
 pip install sklearn numpy Pillow argparse matplotlib
 ```
 
-Code for DeepLoc and Paired Cell Inpainting models is available under ```models/keras_models.py```. To run train script, use:
+Code for DeepLoc and Paired Cell Inpainting models is based on TensorFlow 2 and available under ```models/keras_models.py```. 
+
+To run train script, use:
 ```python train.py --backbone deep_loc --learning_rate 0.001 --num_epoch 5 --checkpoint_dir save_ckpt```
-Check other arguments for different training options.
+
+Check other ```train.py``` arguments for different training options.
 
 CellProfiler features were obtained by running the [CellProfiler pipeline](https://cellprofiler.org/). 
 
