@@ -22,19 +22,21 @@ We compare three methods for molecular representation learning:
 * **Paired Cell Inpainting** - autoencoder-based method for protein representation learning;
 * **CellProfiler** - a classic feature extractor for cellular data;
 
-We train Deep Loc and Paired Cell Inpainting models on single-cell yeast microscopy data, containing ~4K fluorescently-labeled proteins. Data is available here: 
+We train Deep Loc and Paired Cell Inpainting models on single-cell yeast microscopy data, containing ~4K fluorescently-labeled proteins. Image data can be downloaded as zip files from this webserver: [http://hershey.csb.utoronto.ca/image_screens/WT2/](http://hershey.csb.utoronto.ca/image_screens/WT2/)
 
 We use 4 standards for comparison:
-* [http://geneontology.org/](GO Cellular Component) (GO CC)
-* [http://geneontology.org/](GO Biological Process) (GO BP)
-* KEGG Pathways
-* EMBL Protein Complexes
+* [GO Cellular Component](http://geneontology.org/) (GO CC)
+* [GO Biological Process)](http://geneontology.org/) (GO BP)
+* [KEGG Pathways](https://www.genome.jp/kegg/pathway.html)
+* [EMBL Protein Complexes](https://www.ebi.ac.uk/complexportal/home)
 
 <img src="https://github.com/arazd/protein_representation_learning/blob/main/methods_comparison.png" alt="drawing" width="250"/>
 
 
-## How to run
+## Codebase
+Code for DeepLoc and Paired Cell Inpainting models is available under ``` models/keras_models.py ```
 
+CellProfiler features were obtained by running the [CellProfiler pipeline](https://cellprofiler.org/).
 
 ## References 
 
