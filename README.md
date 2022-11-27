@@ -1,11 +1,7 @@
 # Protein Representation Learning from Single-cell Microscopy Data
 
 <!--![Build status](https://img.shields.io/github/workflow/status/bowang-lab/BIONIC/Python%20package)
-![Version](https://img.shields.io/github/v/release/bowang-lab/BIONIC)
-![Top language](https://img.shields.io/github/languages/top/bowang-lab/BIONIC)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6762584.svg)](https://doi.org/10.5281/zenodo.6762584)
 -->
-![Build status](https://img.shields.io/github/workflow/status/arazd/protein_representation_learning/models)
 ![Top language](https://img.shields.io/github/languages/top/arazd/protein_representation_learning)
 ![License](https://img.shields.io/github/license/arazd/protein_representation_learning)
 
@@ -55,7 +51,7 @@ Razdaibiedina A, Brechalov A. Learning multi-scale functional representations of
 }
 ```
 
-The supervised model we used for representation learning was first introduced in this paper:
+<!--The supervised model we used for representation learning was first introduced in this paper:
 
 Kraus OZ, Grys BT, Ba J, Chong Y, Frey BJ, Boone C, Andrews BJ. Automated analysis of high‐content microscopy data with deep learning. Molecular systems biology. 2017 Apr;13(4):924.
 
@@ -70,4 +66,4 @@ Kraus OZ, Grys BT, Ba J, Chong Y, Frey BJ, Boone C, Andrews BJ. Automated analys
   year={2017}
 }
 ```
-
+-->
